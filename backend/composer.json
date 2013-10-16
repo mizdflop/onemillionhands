@@ -1,0 +1,29 @@
+{
+	"name": "rgnevashev/cakephp-standard",
+	"license": "MIT",
+    "type": "project",
+    "description": "The \"CakePHP Standard Edition\" distribution",
+	"repositories" : [
+		{
+			"type": "package",
+			"package": {
+				"name" : "cakephp/cakephp",
+				"version" : "2.4.1",
+				"source" : {
+					"type" : "git",
+					"url" : "git://github.com/cakephp/cakephp.git",
+					"reference" : "2.4.1"
+				},
+				"bin" : ["lib/Cake/Console/cake"]
+			}
+		}
+	],
+	"require" : {
+		"php": ">=5.3",
+		"cakephp/cakephp" : "2.4.1"
+	},
+	"config": {
+		"vendor-dir": "vendor"
+	},
+	"minimum-stability": "dev"
+}

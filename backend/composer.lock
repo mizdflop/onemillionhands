@@ -1,0 +1,38 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
+    ],
+    "hash": "5c944cb83cae48948be9e7861f55c015",
+    "packages": [
+        {
+            "name": "cakephp/cakephp",
+            "version": "2.4.1",
+            "source": {
+                "type": "git",
+                "url": "git://github.com/cakephp/cakephp.git",
+                "reference": "2.4.1"
+            },
+            "bin": [
+                "lib/Cake/Console/cake"
+            ],
+            "type": "library"
+        }
+    ],
+    "packages-dev": [
+
+    ],
+    "aliases": [
+
+    ],
+    "minimum-stability": "dev",
+    "stability-flags": [
+
+    ],
+    "platform": {
+        "php": ">=5.3"
+    },
+    "platform-dev": [
+
+    ]
+}
