@@ -58,7 +58,7 @@
     		</div>
     		<nav class="collapse navbar-collapse navbar-ex-collapse" role="navigation">
       			<ul class="nav navbar-nav navbar-right">
-        			<li><a href="#">Trends</a></li>
+        			<li><a href="/trends">Trends</a></li>
         			<li><a href="/questions">Instant Polls</a></li>
         			<li><a href="/analyses">Analyses</a></li>        			        			
       			</ul>

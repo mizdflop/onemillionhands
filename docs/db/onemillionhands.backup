@@ -49,7 +49,7 @@
     <PropertyValue Name="IncludeDrop">true</PropertyValue>
     <PropertyValue Name="IncludeIfExists">true</PropertyValue>
     <PropertyValue Name="IncludeIfNotExists">false</PropertyValue>
-    <PropertyValue Name="IncludeCreateDatabase">true</PropertyValue>
+    <PropertyValue Name="IncludeCreateDatabase">false</PropertyValue>
     <PropertyValue Name="IncludeUseDatabase">true</PropertyValue>
     <PropertyValue Name="IncludeGrants">false</PropertyValue>
     <PropertyValue Name="UseSchemaNamePrefix">false</PropertyValue>

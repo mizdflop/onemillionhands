@@ -77,7 +77,20 @@ class Analysis extends AppModel {
 			'limit' => '',
 			'offset' => '',
 			'finderQuery' => '',
-		)
+		),
+		'Trend' => array(
+			'className' => 'Trend',
+			'joinTable' => 'analyses_trends',
+			'foreignKey' => 'analysis_id',
+			'associationForeignKey' => 'trend_id',
+			'unique' => 'keepExisting',
+			'conditions' => '',
+			'fields' => '',
+			'order' => '',
+			'limit' => '',
+			'offset' => '',
+			'finderQuery' => '',
+		)			
 	);	
 		
 }

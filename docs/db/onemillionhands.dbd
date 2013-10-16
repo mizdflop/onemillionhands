@@ -51,8 +51,8 @@
               <Parent>0</Parent>
             </CustomProperties>
             <Location>
-              <X>430 px</X>
-              <Y>240 px</Y>
+              <X>440 px</X>
+              <Y>140 px</Y>
             </Location>
             <Size>
               <Width>144 px</Width>
@@ -189,8 +189,8 @@
               <Parent>0</Parent>
             </CustomProperties>
             <Location>
-              <X>380 px</X>
-              <Y>430 px</Y>
+              <X>420 px</X>
+              <Y>300 px</Y>
             </Location>
             <Size>
               <Width>169 px</Width>
@@ -198,6 +198,52 @@
             </Size>
             <DbOid>
               <Path>onemillionhands.analyses_players</Path>
+              <TypeName>Table</TypeName>
+            </DbOid>
+            <Compartments>
+              <ConstraintsCollapsed>True</ConstraintsCollapsed>
+              <IndexesCollapsed>True</IndexesCollapsed>
+              <TriggersCollapsed>True</TriggersCollapsed>
+            </Compartments>
+          </Model>
+          <Model xsi:type="TableModel">
+            <CustomProperties>
+              <OID>8</OID>
+              <Parent>0</Parent>
+            </CustomProperties>
+            <Location>
+              <X>420 px</X>
+              <Y>580 px</Y>
+            </Location>
+            <Size>
+              <Width>223 px</Width>
+              <Height>195 px</Height>
+            </Size>
+            <DbOid>
+              <Path>onemillionhands.trends</Path>
+              <TypeName>Table</TypeName>
+            </DbOid>
+            <Compartments>
+              <ConstraintsCollapsed>True</ConstraintsCollapsed>
+              <IndexesCollapsed>True</IndexesCollapsed>
+              <TriggersCollapsed>True</TriggersCollapsed>
+            </Compartments>
+          </Model>
+          <Model xsi:type="TableModel">
+            <CustomProperties>
+              <OID>9</OID>
+              <Parent>0</Parent>
+            </CustomProperties>
+            <Location>
+              <X>440 px</X>
+              <Y>450 px</Y>
+            </Location>
+            <Size>
+              <Width>164 px</Width>
+              <Height>110 px</Height>
+            </Size>
+            <DbOid>
+              <Path>onemillionhands.analyses_trends</Path>
               <TypeName>Table</TypeName>
             </DbOid>
             <Compartments>
