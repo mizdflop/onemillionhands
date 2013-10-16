@@ -10,3 +10,13 @@ app/[Cc]onfig/database.php
 
 /.project
 /.settings
+
+/backend/Config/database.php
+
+/backend/tmp/cache/models/*
+
+/backend/tmp/cache/persistent/*
+
+/backend/tmp/logs/*.log
+
+/backend/vendor/*
