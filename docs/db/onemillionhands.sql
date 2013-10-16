@@ -1,6 +1,6 @@
 ﻿-- Скрипт сгенерирован Devart dbForge Studio for MySQL, Версия 6.0.493.0
 -- Домашняя страница продукта: http://www.devart.com/ru/dbforge/mysql/studio
--- Дата скрипта: 16.10.2013 16:24:18
+-- Дата скрипта: 16.10.2013 17:28:03
 -- Версия сервера: 5.6.12-log
 -- Версия клиента: 4.1
 
@@ -98,6 +98,83 @@ CREATE TABLE answers (
 ENGINE = INNODB
 AUTO_INCREMENT = 13
 AVG_ROW_LENGTH = 4096
+CHARACTER SET utf8
+COLLATE utf8_general_ci;
+
+--
+-- Описание для таблицы hand_players
+--
+DROP TABLE IF EXISTS hand_players;
+CREATE TABLE hand_players (
+  id INT(11) NOT NULL AUTO_INCREMENT,
+  hand_id INT(11) NOT NULL,
+  player_id INT(11) NOT NULL,
+  change_in_chips BIGINT(20) NOT NULL,
+  stack_after BIGINT(20) UNSIGNED NOT NULL,
+  PRIMARY KEY (id)
+)
+ENGINE = INNODB
+AUTO_INCREMENT = 1
+CHARACTER SET utf8
+COLLATE utf8_general_ci;
+
+--
+-- Описание для таблицы hand_street_actions
+--
+DROP TABLE IF EXISTS hand_street_actions;
+CREATE TABLE hand_street_actions (
+  id INT(11) NOT NULL AUTO_INCREMENT,
+  player_id INT(11) NOT NULL,
+  hand_id INT(11) NOT NULL,
+  street INT(11) NOT NULL,
+  big_blind INT(11) UNSIGNED NOT NULL,
+  action_number INT(11) NOT NULL,
+  predicted_ds_before_action DOUBLE DEFAULT NULL,
+  predicted_ds_after_action DOUBLE DEFAULT NULL,
+  indirect_luck_score DOUBLE DEFAULT NULL,
+  skill_score DOUBLE DEFAULT NULL,
+  PRIMARY KEY (id)
+)
+ENGINE = INNODB
+AUTO_INCREMENT = 1
+CHARACTER SET utf8
+COLLATE utf8_general_ci;
+
+--
+-- Описание для таблицы hand_street_players
+--
+DROP TABLE IF EXISTS hand_street_players;
+CREATE TABLE hand_street_players (
+  id INT(11) NOT NULL AUTO_INCREMENT,
+  hand_id INT(11) NOT NULL,
+  player_id INT(11) NOT NULL,
+  big_blind INT(11) NOT NULL,
+  street INT(11) NOT NULL,
+  direct_luck_score DOUBLE DEFAULT NULL,
+  predicted_ds_before_street DOUBLE DEFAULT NULL,
+  predicted_ds_after_street DOUBLE DEFAULT NULL,
+  indirect_luck_score DOUBLE DEFAULT NULL,
+  luck_score DOUBLE DEFAULT NULL,
+  PRIMARY KEY (id)
+)
+ENGINE = INNODB
+AUTO_INCREMENT = 1
+CHARACTER SET utf8
+COLLATE utf8_general_ci;
+
+--
+-- Описание для таблицы hands
+--
+DROP TABLE IF EXISTS hands;
+CREATE TABLE hands (
+  id INT(11) NOT NULL AUTO_INCREMENT,
+  small_blind INT(11) NOT NULL,
+  big_blind INT(11) NOT NULL,
+  ante INT(11) NOT NULL,
+  PRIMARY KEY (id)
+)
+ENGINE = INNODB
+AUTO_INCREMENT = 1
 CHARACTER SET utf8
 COLLATE utf8_general_ci;
 
@@ -207,6 +284,30 @@ INSERT INTO answers VALUES
 (10, 2, '25'),
 (11, 2, '45'),
 (12, 2, '68');
+
+-- 
+-- Вывод данных для таблицы hand_players
+--
+
+-- Таблица onemillionhands.hand_players не содержит данных
+
+-- 
+-- Вывод данных для таблицы hand_street_actions
+--
+
+-- Таблица onemillionhands.hand_street_actions не содержит данных
+
+-- 
+-- Вывод данных для таблицы hand_street_players
+--
+
+-- Таблица onemillionhands.hand_street_players не содержит данных
+
+-- 
+-- Вывод данных для таблицы hands
+--
+
+-- Таблица onemillionhands.hands не содержит данных
 
 -- 
 -- Вывод данных для таблицы players

@@ -252,13 +252,105 @@
               <TriggersCollapsed>True</TriggersCollapsed>
             </Compartments>
           </Model>
+          <Model xsi:type="TableModel">
+            <CustomProperties>
+              <OID>10</OID>
+              <Parent>0</Parent>
+            </CustomProperties>
+            <Location>
+              <X>720 px</X>
+              <Y>580 px</Y>
+            </Location>
+            <Size>
+              <Width>141 px</Width>
+              <Height>127 px</Height>
+            </Size>
+            <DbOid>
+              <Path>onemillionhands.hands</Path>
+              <TypeName>Table</TypeName>
+            </DbOid>
+            <Compartments>
+              <ConstraintsCollapsed>True</ConstraintsCollapsed>
+              <IndexesCollapsed>True</IndexesCollapsed>
+              <TriggersCollapsed>True</TriggersCollapsed>
+            </Compartments>
+          </Model>
+          <Model xsi:type="TableModel">
+            <CustomProperties>
+              <OID>11</OID>
+              <Parent>0</Parent>
+            </CustomProperties>
+            <Location>
+              <X>1290 px</X>
+              <Y>360 px</Y>
+            </Location>
+            <Size>
+              <Width>196 px</Width>
+              <Height>144 px</Height>
+            </Size>
+            <DbOid>
+              <Path>onemillionhands.hand_players</Path>
+              <TypeName>Table</TypeName>
+            </DbOid>
+            <Compartments>
+              <ConstraintsCollapsed>True</ConstraintsCollapsed>
+              <IndexesCollapsed>True</IndexesCollapsed>
+              <TriggersCollapsed>True</TriggersCollapsed>
+            </Compartments>
+          </Model>
+          <Model xsi:type="TableModel">
+            <CustomProperties>
+              <OID>12</OID>
+              <Parent>0</Parent>
+            </CustomProperties>
+            <Location>
+              <X>960 px</X>
+              <Y>580 px</Y>
+            </Location>
+            <Size>
+              <Width>270 px</Width>
+              <Height>229 px</Height>
+            </Size>
+            <DbOid>
+              <Path>onemillionhands.hand_street_actions</Path>
+              <TypeName>Table</TypeName>
+            </DbOid>
+            <Compartments>
+              <ConstraintsCollapsed>True</ConstraintsCollapsed>
+              <IndexesCollapsed>True</IndexesCollapsed>
+              <TriggersCollapsed>True</TriggersCollapsed>
+            </Compartments>
+          </Model>
+          <Model xsi:type="TableModel">
+            <CustomProperties>
+              <OID>13</OID>
+              <Parent>0</Parent>
+            </CustomProperties>
+            <Location>
+              <X>1300 px</X>
+              <Y>560 px</Y>
+            </Location>
+            <Size>
+              <Width>268 px</Width>
+              <Height>229 px</Height>
+            </Size>
+            <DbOid>
+              <Path>onemillionhands.hand_street_players</Path>
+              <TypeName>Table</TypeName>
+            </DbOid>
+            <Compartments>
+              <ConstraintsCollapsed>True</ConstraintsCollapsed>
+              <IndexesCollapsed>True</IndexesCollapsed>
+              <TriggersCollapsed>True</TriggersCollapsed>
+            </Compartments>
+          </Model>
         </Children>
         <ViewPort>
           <ScaleMode>Free</ScaleMode>
           <Scale>1</Scale>
           <Location>
             <X>0 px</X>
-            <Y>0 px</Y>
+            <Y>197.9599609375 px</Y>
           </Location>
         </ViewPort>
       </Model>
