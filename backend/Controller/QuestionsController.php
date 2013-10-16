@@ -8,6 +8,7 @@ App::uses('AppController', 'Controller');
  */
 class QuestionsController extends AppController {
 
+	public $uses = array('Question','Analysis');
 /**
  * Components
  *
@@ -21,6 +22,7 @@ class QuestionsController extends AppController {
  * @return void
  */
 	public function index() {
+		fb($this->Analysis->find('all'));
 		$this->Question->recursive = 0;
 		$this->set('questions', $this->Paginator->paginate());
 	}

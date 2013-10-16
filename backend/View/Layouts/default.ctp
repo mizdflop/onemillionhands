@@ -60,7 +60,7 @@
       			<ul class="nav navbar-nav navbar-right">
         			<li><a href="#">Trends</a></li>
         			<li><a href="/questions">Instant Polls</a></li>
-        			<li><a href="#">Analyses</a></li>        			        			
+        			<li><a href="/analyses">Analyses</a></li>        			        			
       			</ul>
     		</nav>
   		</div>
